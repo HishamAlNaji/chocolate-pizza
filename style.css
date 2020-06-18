@@ -132,3 +132,8 @@ footer img{
 footer p {
     font-size: 15pt;
 }
+#saveBtn{
+    background-color: rgb(219, 67, 67);
+    color: white;
+    width: 15%;
+}
