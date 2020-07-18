@@ -1,134 +1,193 @@
-.headerblocks{
-    width: 90%;
-    margin: 0px auto;
-    display: flex;
-  
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Eczar&display=swap');
+body {
+    margin: auto;
+    width: 900px;
+    height: 0 auto;
+    background-color: white;
+    min-height: 1500px;
+    position: relative;
+    margin-bottom: 90px;
 }
 
-
-.headerblocks img {
-
-    margin-left: 30px;
-    margin-top: 20px;
-   
+header {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.logoblocks{
 
-    width: 70%;
-    margin-top: 20px;
-   
+section {
+    margin-bottom: 23px;
 }
-.imgs5 img{
-   
-    margin-top: 20px;
-    margin-left: 2px; 
-  
-  
+
+.hr-image {
+    background-image: url(../img/hr-img.png);
+    background-position: center;
+    height: 10px;
 }
-.imgs2{
+
+.logo {
+    display: inline-block;
+}
+
+#myLogo {
+    float: left;
+    margin: 2%;
+}
+
+h1 {
+    font-family: 'Yellowtail';
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 23px;
+}
+
+h6 {
+    font-family: 'Abel';
+    font-size: smaller;
+}
+
+.logo h1,
+h6 {
+    display: inline-block;
+    line-height: 0em;
+}
+
+.nav {
+    float: right;
+    margin: 2%;
+}
+
+.social-madia img {
+    margin: 0px;
+}
+
+.mail {
     margin-left: 10px;
 }
 
-.imgs2 img{
+.left-side {
     float: left;
-    margin-top: 20px;
-    margin-left: 10px; 
-    
 }
-h1{
 
+.right-side {
+    float: right;
 }
-.headofmain{
-   width: 90%;
-    margin: auto auto;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.headofmain img{
-    
-    height: 50%;
-   
-}
-#choco{
-    width: 90%;
-    display: block;
-    margin: 0px auto;
-}
-#par{
-    width: 90%;
-    margin: 30px auto;
-    font-size: 150%;
-     
-}
-#list-bg{
-    width: 90%;
-    margin: 50px auto;
-    display: block;
-   
-}
-.ulists{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 250%;
-    position: relative;
-  
-   
-   
-}
-.ulists img{
-    width: 90%;
-    margin: 50px auto;
-    display: block;
-    position: relative;
 
+h2 {
+    font-family: 'Oswald';
+    font-size: 40px;
+    padding-bottom: 5px;
 }
-.Flist {
-    width: 90%;
-    margin: 100px 60px;
-    display: block;
-    position: absolute;
-    right: auto;
-    
-  
-    
-}
-.Slist{
-    position: absolute;
-    left: 40%;
-    width: 90%;
-    margin: 100px auto;
-    display: block;
- 
-}
-.mainFooter{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
 
-}
-.mainFooterp{
-    font-size: 20pt;
-  
-}
-.mainFooterp h1{
-    font-weight: 800;
-    font-size: 25pt;
+main h6 {
+    color: rgb(158, 157, 157);
     margin-bottom: 10px;
 }
-footer{
-    width: 90%;
+
+article img {
+    margin-bottom: 30px;
+}
+
+article pre {
+    text-indent: 28px;
+    margin-bottom: 8px;
+}
+
+pre {
+    line-height: 23px;
+    font-size: 15px;
+    font-family: 'Eczar';
+    color: grey;
+}
+
+.list {
+    position: relative;
+    font-family: 'Patrick Hand';
+    color: rgba(31, 29, 29, 0.747);
+}
+
+.list div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+}
+
+div.left-side {
+    margin-left: 55px;
+    margin-top: 35px;
+}
+
+div.right-side {
+    margin-left: 450px;
+    margin-top: 35px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+.bottom {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+#author-name {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.bottom p {
+    color: dimgrey;
+    font-size: 15px;
+}
+
+#button {
+    margin-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+button#button {
+    background-color: rgba(179, 51, 34, 0.795);
+    font-family: 'abel';
+    font-size: 25px;
+    color: white;
+}
+
+.break {
+    display: block;
     text-align: center;
-    padding: 50px;
-    
 }
-footer img{
-    margin-top: 50px;
-    height: 50px;
-    margin-bottom: 20px;
+
+hr {
+    border: none;
+    border: 0.5px solid #d7d7d7;
 }
+
+.break img {
+    position: relative;
+    top: -25px;
+    background: white;
+    padding: 0 5px;
+}
+
 footer p {
-    font-size: 15pt;
+    text-align: center;
+    color: #b4afaf;
 }
